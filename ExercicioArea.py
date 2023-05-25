@@ -60,7 +60,7 @@ class MainWindow(QMainWindow):
             float(self.txt_comprimento.text())*
             float(self.txt_largura.text())
         )
-        self.resultado.setText(Resultado)    
+        self.resultado.setText(f"O total é : {Resultado} metros cúbicos")
 
 
 
